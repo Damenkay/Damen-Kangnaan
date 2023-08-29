@@ -7,6 +7,7 @@ import { AsideComponent } from './components/aside/aside.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { MainContentComponent } from './components/main-content/main-content.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainContentComponent } from './components/main-content/main-content.com
     AsideComponent,
     NavbarComponent,
     AboutComponent,
-    MainContentComponent
+    MainContentComponent,
+    ResumeComponent
 
   ],
   imports: [
